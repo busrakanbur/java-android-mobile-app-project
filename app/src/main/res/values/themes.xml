@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.WeddingApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#1f2839</item>
+        <item name="colorPrimaryVariant">#181f2c</item>
+        <item name="colorOnPrimary">#cb8929</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#cb8929</item>
+        <item name="colorSecondaryVariant">#bb7e26</item>
+        <item name="colorOnSecondary">#1f2839</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.WeddingApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.WeddingApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.WeddingApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
